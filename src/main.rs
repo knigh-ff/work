@@ -1,3 +1,7 @@
+use std::io;
+let mut goat = String::new()
+
 fn main() {
-    println!("Hello, world!");
+    println!("howdy");
+    io::stdin::read_line(&mut goat)
 }
